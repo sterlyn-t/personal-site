@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sterlyn's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="nav center">
+          <p class="logo">HOME</p>
+        <input type="checkbox" name="" class="checkBtn"/>
+        <ol class="center">
+            <a href="#About"><li>About</li></a>
+            <a href="#Education"><li>Education</li></a>
+            <a href="#Experience"><li>Experience</li></a>
+            <a href="#Projects"><li>Projects</li></a>
+            <a href="#Contact"><li>Contact</li></a>
+        </ol>
+    </header>
+    <section class="main">
+        <div class="box">
+            <h1>Sterlyn Tang</h1>
+            <p>Software Developer | Fullstack Developer</p>
+            <a href="#About"><button class="btn" href="#About">About</button></a>
+        </div>
+      <!--  <img src="profile.jpg" alt="">-->
+        <!--<img src="https://media.giphy.com/media/KZRkHRdUCJE79gTX2M/giphy.gif" alt="">-->
+    </section>
+
+
+    <!-- about -->
+    <div class="about center" id="About">
+        <div class="box_wrap">
+            <p class="heading">About</p>
+            <p class="text">Hello! My name is Sterlyn Tang. I'm a 2B Electrical Engineering student at the University of Waterloo. </p>
+            <br />
+            <p class="text">
+               I can program in C++, C# and Python, as well as do web development in HTML, CSS and JavaScript.
+              </p>
+              <br />
+              <p class="text">
+                I am currently focused on learning Software Development and Fullstack Development.
+                </p>
+        </div>
+        <div class="box_wrap">
+            <p class="heading">Skills</p>
+            <div class="skills_box">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+              width="50" height="50"
+              viewBox="0 0 172 172"
+              style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#cccccc"><path d="M151.05094,41.29344l-57.92906,-32.55906c-4.39406,-2.45906 -9.84969,-2.45906 -14.24375,0l-57.92906,32.55906c-4.43438,2.48594 -7.18906,7.14875 -7.18906,12.1475v65.11813c0,4.99875 2.75469,9.66156 7.18906,12.1475l57.92906,32.55906c2.20375,1.23625 4.66281,1.85437 7.12187,1.85437c2.45906,0 4.91813,-0.61812 7.12188,-1.85437l57.92906,-32.55906c4.43438,-2.48594 7.18906,-7.14875 7.18906,-12.1475v-65.11813c0,-4.99875 -2.75469,-9.66156 -7.18906,-12.1475zM86,127.28c-22.76312,0 -41.28,-18.51687 -41.28,-41.28c0,-22.76312 18.51688,-41.28 41.28,-41.28c13.0075,0 25.02063,6.03344 32.82781,16.31313l-15.07688,8.72094c-4.52844,-4.95844 -10.965,-7.83406 -17.75094,-7.83406c-13.27625,0 -24.08,10.80375 -24.08,24.08c0,13.27625 10.80375,24.08 24.08,24.08c6.78594,0 13.2225,-2.87562 17.75094,-7.83406l15.07688,8.72094c-7.80719,10.27969 -19.82031,16.31312 -32.82781,16.31312zM127.28,89.44h-6.88v6.88h-6.88v-6.88h-6.88v-6.88h6.88v-6.88h6.88v6.88h6.88zM151.36,89.44h-6.88v6.88h-6.88v-6.88h-6.88v-6.88h6.88v-6.88h6.88v6.88h6.88z"></path></g></g></svg>
+                <i class="fab fa-python fa-3x"></i>
+                <i class="fab fa-html5 fa-3x"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <i class="fab fa-js fa-3x"></i>
+                <i class="fab fa-node-js fa-3x"></i>
+                <i class="fab fa-react fa-3x"></i>
+                <i class="fas fa-database fa-3x"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- education -->
+    <div class="education center" id="Education">
+        <div class="left_box">
+            <h1 class="heading">Education</h1>
+            <div class="container">
+                <h3>University of Waterloo</h3>
+                <p>Electrical Engineering</p>
+                <small>September 2019- April 2024</small>
+            </div>
+            <div class="container">
+                <h3>University of the West Indies</h3>
+                <p>Actuarial Science</p>
+                <small>September 2017- April 2019</small>
+            </div>
+        </div>
+        <div class="right_box">
+            <img src="university.png" alt="">
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="experience center" id="Experience">
+      <h3>Experience</h3>
+        <ul>
+            <li>
+                <small>Jan 2021 - Apr 2021</small>
+                <p>Software Developer</p>
+                <p>BTNX Inc.</p>
+              <button id="modalButton" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#BTNXModal"><i class="fas fa-angle-double-right fa-2x"></i></button>
+            </li>
+        </ul>
+        </button>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects center" id="Projects">
+        <h3>Projects</h3>
+        <div class="container">
+            <a href="https://anonymous-b.herokuapp.com/">
+             <div>Blog Website</div>
+            </a>
+            <a href="https://sterlyn-t.github.io/currency-converter/">
+                <div>Currency Converter</div>
+            </a>
+            <a href="https://sterlyn-t.github.io/weather-app/">
+               <div>Weather App</div>
+            </a>
+        </div>
+    </div>
+    <div id="BTNXModal" class="modal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Software Developer - BTNX Inc.</h3>
+            <small>Jan 2021 - Apr 2021</small>
+            <br/>
+            </div>
+            <div class="modal-body">
+              <br/>
+              <p>
+                At BTNX Inc. I had the responsibility of independently creating an internal web application which would be used by the
+                company's employees to carry out the functionalities such as placing and tracking orders, keeping track of inventory, generating shipping forms and even sending
+                emails and faxes. The backend was written in C# using ASP.NET, with the Entity Framework, ReactJS for the frontend and MS SQL for the database.
+                During my time at the company, I developed numerous RESTful API's
+                most notably API's which allowed for users to send and receive both fax and email within the web app. I also got exposure to writing technical documents as I
+                to document all of the features which I implemented. I later converted these technical documentations into a user manual for the company's employees.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact -->
+      <div class="contact center" id="Contact">
+          <div class="skills_box">
+            <a href="https://www.linkedin.com/in/sterlyn-tang/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/sterlyn-t"><i class="fab fa-github fa-2x"></i></a>
+            <a href="mailto:sterlyntang31@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+          </div>
+          <small>Sterlyn Tang &#169 2021</small>
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>
